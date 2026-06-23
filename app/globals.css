@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #052e16;
+  --color-forest-mid: #15803d;
+  --color-forest-dark: #14532d;
+  --color-gold: #b45309;
+  --color-gold-light: #d97706;
+  --color-sage: #f0fdf4;
+  --color-cream: #fdfbf7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdfbf7; /* تطبيق لون الخلفية الكريمي فوراً */
+  color: #1f2937;
+  font-family: system-ui, -apple-system, sans-serif;
+}
